@@ -1,0 +1,218 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightcyan;
+  max-width: 1440px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  padding: 0.5em;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: darkblue;
+  min-height: 95px;
+}
+
+p {
+  padding: 1em;
+  text-align: justify;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: darkblue;
+  font-size: 1.3em;
+  text-overflow: ellipsis;
+  min-height: 27%;
+  margin-bottom: 0;
+}
+
+header {
+  display: flex;
+  background-color: lightskyblue;
+}
+
+nav {
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  background-color: lightskyblue;
+  width: 100%;
+}
+
+.nav_item {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: black;
+}
+
+section {
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+.pic {
+  flex-grow: 3;
+  width: 30vw;
+  height: 50vh;
+}
+
+.pic4 {
+  width: 90%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.pic5 {
+  width: 30%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.vid {
+  flex-grow: 1;
+  width: 10vw;
+}
+
+article {
+  display: flex;
+}
+
+.article_content {
+  text-align: center;
+  width: 100vw;
+  align-items: center;
+}
+
+.feedbacks {
+  display: inline;
+  justify-content: center;
+  max-width: 1440px;
+}
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.feed1 {
+  display: flex;
+  justify-content: center;
+}
+
+.img01 {
+  width: 30%;
+  object-fit: scale-down;
+  aspect-ratio: 1 / 1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightskyblue;
+  padding-top: 2em;
+}
+
+.footer_item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 719.98px) {
+  .logo,
+  .vid,
+  .pic2 {
+    display: none;
+  }
+
+  .pic {
+    flex-grow: 0.5;
+  }
+  header {
+    display: flex;
+  }
+
+  .nav_item {
+    width: 100%;
+    padding: 0.2em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article_content {
+    width: 100%;
+  }
+
+  a {
+    font-size: 0.9em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1023.98px) {
+  a {
+    font-size: 1em;
+  }
+
+  p {
+    min-height: 40%;
+  }
+
+  article {
+    align-items: baseline;
+  }
+}
+
+@media (min-width: 1024px) {
+}
+
+/*Вопросы 
+1. При подключении бутстрап боди уехал влево
+2. Почеу-то не работает aspect-ratio
+3. В футере картинки не смогла сделать одного размера и ссылки, min-heit не работает
+4. Отзывы хотела сделать каруселью из bootstrap, это возможно, если картинки разного размера?
+5. Медиазапросы не смотрела пока
