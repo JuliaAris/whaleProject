@@ -4,7 +4,7 @@ header {
   z-index: 1000;
   box-sizing: border-box;
   display: flex;
-  background-color: lightskyblue;
+  background-color: $primary-color;
   width: 60vw;
 }
 
@@ -19,7 +19,7 @@ nav {
   display: flex;
   gap: 16px;
   align-items: center;
-  background-color: lightskyblue;
+  background-color: $primary-color;
   width: 100%;
 }
 
@@ -32,9 +32,9 @@ nav {
   text-decoration: none;
   font-size: 1.3em;
   font-weight: 600;
-  color: black;
+  color: $link-color;
 }
 
 .header_link:hover {
-  color: darkblue;
+  color: $link-hover-color;
 }

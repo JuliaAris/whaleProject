@@ -13,11 +13,11 @@
   text-decoration: none;
   font-size: 1.3em;
   font-weight: 600;
-  color: black;
+  color: $link-color;
 }
 
 .article_link:hover {
-  color: darkblue;
+  color: $link-hover-color;
 }
 .article_picture {
   width: 90%;
@@ -28,9 +28,9 @@
 .article_text {
   padding: 1em;
   text-align: justify;
-  font-family: "Poppins";
+  font-family: $main-font;
   font-weight: 500;
-  color: darkblue;
+  color: $link-hover-color;
   font-size: 1.3em;
   text-overflow: hidden;
   min-height: 27%;

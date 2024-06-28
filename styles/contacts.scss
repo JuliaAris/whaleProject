@@ -15,13 +15,13 @@ a[href^="mailto:"] {
   display: block;
   font-size: 2em;
   line-height: 1.5em;
-  color: #000000;
+  color: $link-color;
   text-decoration: none;
   padding: 0.75em;
 }
 
 a[href^="mailto:"]:hover {
-  color: darkblue;
+  color: $link-hover-color;
 }
 
 a[href^="tel:"] {
@@ -29,11 +29,11 @@ a[href^="tel:"] {
   font-size: 2em;
   line-height: 1.5em;
   text-decoration: none;
-  color: #000000;
+  color: $link-color;
   padding: 0.75em;
 }
 a[href^="tel:"]:hover {
-  color: darkblue;
+  color: $link-hover-color;
 }
 
 a[href^="tel:"]:before {
@@ -46,17 +46,17 @@ a[href^="tel:"]:before {
   font-size: 2em;
   line-height: 1.5em;
   text-decoration: none;
-  color: #000000;
+  color: $link-color;
   padding: 0.75em;
 }
 
 .vk_link:hover {
-  color: darkblue;
+  color: $link-hover-color;
 }
 
 .contacts {
   width: fit-content;
-  border: 0.2em solid darkblue;
+  border: 0.2em solid $link-hover-color;
   border-radius: 15%;
   align-self: center;
   margin-bottom: 2em;

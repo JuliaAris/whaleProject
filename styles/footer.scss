@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  background-color: lightskyblue;
+  background-color: $primary-color;
   padding-top: 2em;
 }
 
@@ -19,11 +19,11 @@
   text-decoration: none;
   font-size: 1.3em;
   font-weight: 600;
-  color: black;
+  color: $link-color;
 }
 
 .footer_link_text:hover {
-  color: darkblue;
+  color: $link-hover-color;
 }
 
 .footer_picture {
