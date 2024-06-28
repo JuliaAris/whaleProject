@@ -1,0 +1,16 @@
+.cover_video {
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+.pic {
+  flex-grow: 3;
+  width: 30vw;
+  height: 50vh;
+}
+
+.vid {
+  flex-grow: 1;
+  width: 10vw;
+}

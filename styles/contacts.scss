@@ -1,0 +1,63 @@
+.contacts_title {
+  margin-bottom: 1em;
+  font-size: 3em;
+  text-align: center;
+}
+
+.contacts_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 62vh;
+}
+
+a[href^="mailto:"] {
+  display: block;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #000000;
+  text-decoration: none;
+  padding: 0.75em;
+}
+
+a[href^="mailto:"]:hover {
+  color: darkblue;
+}
+
+a[href^="tel:"] {
+  display: block;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-decoration: none;
+  color: #000000;
+  padding: 0.75em;
+}
+a[href^="tel:"]:hover {
+  color: darkblue;
+}
+
+a[href^="tel:"]:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+
+.vk_link {
+  display: block;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-decoration: none;
+  color: #000000;
+  padding: 0.75em;
+}
+
+.vk_link:hover {
+  color: darkblue;
+}
+
+.contacts {
+  width: fit-content;
+  border: 0.2em solid darkblue;
+  border-radius: 15%;
+  align-self: center;
+  margin-bottom: 2em;
+}

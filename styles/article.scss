@@ -1,0 +1,38 @@
+.article {
+  display: flex;
+}
+
+.article_content {
+  text-align: center;
+  width: 100vw;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.article_link {
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: black;
+}
+
+.article_link:hover {
+  color: darkblue;
+}
+.article_picture {
+  width: 90%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.article_text {
+  padding: 1em;
+  text-align: justify;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: darkblue;
+  font-size: 1.3em;
+  text-overflow: hidden;
+  min-height: 27%;
+  margin-bottom: 0;
+}

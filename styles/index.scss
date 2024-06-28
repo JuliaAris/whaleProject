@@ -1,0 +1,23 @@
+@import "./variables.scss";
+@import "./header.scss";
+@import "./article.scss";
+@import "./begin.scss";
+@import "./footer.scss";
+@import "./cover_video.scss";
+@import "./testimonials.scss";
+@import "./contacts.scss";
+@import "./games.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: lightcyan;
+  width: 100vh;
+  height: 100%;
+}

@@ -1,0 +1,56 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+
+.games_container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  justify-content: center;
+}
+
+.games_text {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80vw;
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  max-width: 1440px;
+}
+
+.games_features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.games_plan {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h3,
+p {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.games_scale {
+  transition: 1s;
+}
+
+.games_scale:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+img {
+  margin: 5px;
+  border-radius: 15px;
+}
