@@ -36,3 +36,21 @@
   min-height: 27%;
   margin-bottom: 0;
 }
+
+/*Tablet layout*/
+@media (max-width: 768px) {
+  .article_text {
+    text-align: center;
+  }
+}
+
+/*Mobile layout*/
+@media (max-width: 430px) {
+  .article_text {
+    display: none;
+  }
+
+  .article {
+    flex-direction: column;
+  }
+}

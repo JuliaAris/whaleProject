@@ -14,3 +14,18 @@
   flex-grow: 1;
   width: 10vw;
 }
+
+/*Tablet layout*/
+@media (max-width: 768px) {
+  .vid {
+    display: none;
+  }
+}
+
+/*Mobile layout*/
+@media (max-width: 430px) {
+  .pic {
+    width: 20vw;
+    height: 30vh;
+  }
+}
